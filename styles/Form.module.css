@@ -1,0 +1,74 @@
+.paper {
+    width: 600px;
+    height: max-content;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+.floatRight {
+    position: absolute;
+    right: 50px;
+    bottom: -145px;
+}
+
+.form {
+    padding: 25px 30px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#formButton {
+    background: #84BD00;
+    color: #ffffff;
+    transition: .3s all;
+    border-radius: 0;
+}
+
+#formButton:hover {
+    background-color: #76a506;
+}
+
+.success {
+    color: #84BD00;
+}
+
+.error {
+    color: #f57f17;
+}
+
+@media only screen and (max-width: 1024px){
+    .floatRight {
+        right: 50px;
+        bottom: -255px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .floatRight {
+        right: 30px;
+        bottom: -315px;
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .paper {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .paper {
+        width: 80%;
+    }
+    .floatRight {
+        bottom: -315px;
+    }
+}
+
